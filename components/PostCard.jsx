@@ -6,11 +6,11 @@ import Link from "next/link"
 // RCC
 function PostCard({ post }) {
     return (
-        <div key={post.id}>
+        <div className="bg-gray-950 p-10">
             <Link href={`/posts/${post.id}`}>
-                <h4>{post.id}. {post.title}</h4>
+                <h4 className="text-2xl font-bold mb-4">{post.id}. {post.title}</h4>
             </Link>
-            <p>{post.body}</p>
+            <p className="text-slate-300">{post.body}</p>
             <button onClick={() => alert('Funciona')}>
                 Click
             </button>
