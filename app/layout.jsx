@@ -2,8 +2,9 @@ import Navbar from "../components/Navbar"
 
 
 export const metadata = {
-  title: 'My app - Waldid Barrois',
-  description: 'Waldid Barrios',
+  title: 'My app',
+  description: 'My App con Next JS',
+  creator: 'Waldid Barrios'
 }
 
 export default function RootLayout({ children }) {
